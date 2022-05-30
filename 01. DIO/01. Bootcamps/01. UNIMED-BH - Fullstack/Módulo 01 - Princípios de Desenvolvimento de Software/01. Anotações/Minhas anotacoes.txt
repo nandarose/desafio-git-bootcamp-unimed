@@ -1,0 +1,140 @@
+Anotações:
+
+
+Windows: - cd / (navegar entre as pastas) - dir (buscar a lista de diretórios/pastas) - mkdir (criar pasta) - del / rmdir (deletar arquivos / deletar pastas) - cls (limpar o terminal) - tecla tab (autocompletar)
+como entrar: windows subsystem for linux Unix: - cd / (navegar entre as pastas) - Is (buscar a lista de diretórios/pastas) - mkdir (criar pasta) - rm -rf (deletar arquivos / deletar pastas) - clear (limpar o terminal) ou ctrl + l
+cd .. ->. retroceder um nível echo hello > hello.txt (criar arquivo)
+
+
+git status -> ver os arquivos que foram modificados
+git add. ou git add nome-do-arquivo-alterado -> para adicionar mudancas
+git commit -> salvar alteracoes
+git push -> enviar as alteracoes gravadas no diretorio local para o remoto
+git log -> ver alterações
+git log --oneline -> ver alterações resumidas
+git pull -> ver se houveram atualizações
+git log -p -> ver mais informacoes
+git log --author="user_name" -> pesquisar as informacoes do autor da commit
+git log --since=1.month.ago --until=1.day.ago -> pesquisar info por data
+git log --pretty="format:%h %s" -> formatar a visualizacao das info de commit
+git clone - criar um clone/cópia de um repositorio existente em um local/remoto
+git clone <repositorio> <meu-projeto-clone> - clonar para uma pasta específica
+git clone -branch new_feature <repositorio> -> clonar apenas uma branch específica
+
+
+Introdução ao pensamento computacional:
+
+FR
+Fernanda Rose 25 de mai às 20:21
+Linguagens de programação
+1949 - Assembly (Primeira - linguagem de máquina)
+
+Editar - Excluir
+FR
+Fernanda Rose 25 de mai às 20:02
+Instruções de entrada/saída
+Entrada - inserção e recebimento de dados do mundo real por meio de ação de alguma interface, seja teclado, mouse, arquivos, entre outros.
+Saída - impressão dos dados do mundo abstrato, digital por meio de ação de alguma interface. Pode ser programada ou por interrupção.
+
+Editar - Excluir
+FR
+Fernanda Rose 25 de mai às 19:58
+Funções
+são blocos de instruções que realizam tarefas específicas. Permite a modularização do programa; Código fica mais claro e conciso; Reutilização de instruções.
+
+Editar - Excluir
+FR
+Fernanda Rose 25 de mai às 19:55
+Vetores e matrizes
+Vetor é uma variável que possui uma sequencia (matriz ou container)
+
+Editar - Excluir
+FR
+Fernanda Rose 25 de mai às 19:50
+Estrutura de repetição: - Precisa de uma condição de parada para evitar o loop infinito; Reduz linhas Compreensão facilitada Redução de erro
+Consegue mesclar as estruturas.
+
+Editar - Excluir
+FR
+Fernanda Rose 25 de mai às 19:46
+Estrutura Condicional - Expressa uma condição ou suposição; Contem ou implica uma suposição ou hipótese
+Captura de Tela 2022-05-25 às 19.30.55 Captura de Tela 2022-05-25 às 19.31.49
+Operadores lógicos
+* 		And Captura de Tela 2022-05-25 às 19.41.26 
+* 		Ou Captura de Tela 2022-05-25 às 19.43.24 
+* 		Not Captura de Tela 2022-05-25 às 19.45.44 
+
+Editar - Excluir
+FR
+Fernanda Rose 25 de mai às 19:28
+As instruções determinam as ações que executa em cima dos dados.
+Captura de Tela 2022-05-25 às 19.18.40
+Linguagem de programação - a mesma instrução em cada linguagem possui uma sintaxe particular.
+Captura de Tela 2022-05-25 às 19.27.17
+
+Editar - Excluir
+FR
+Fernanda Rose 25 de mai às 19:16
+Os dados que o computador recebe são tratados e processados. Os tipos de dados são:
+* 		Numéricos; Inteiros Reais  
+* 		Carateres; Aquilo que nao é representado como número - Uso de aspas "". 
+* 		Lógicos; Booleano (Verdadeiro - 1 ou Falso - 0) .Verdadeiro .V ou .S .Falso .F ou .N   
+Variável é um tipo de estrutura mutável que pode variar o seu valor. É inconstante, incerta, instável. Ela sabe o tipo do dado, mas seu valor pode variar. Regras: - Atribuição de um ou mais caracteres; - Primeira letra - não número; - Sem espaços em branco; - Vedado a utilização de palavras reservadas - Caracteres e números
+A variável possui dois tipos de papéis:
+* 		Ação - Modificação de estado
+* 		Controle - Vigiada, controle
+Constante - aquilo que é fixo ou estável.
+
+Editar - Excluir
+FR
+Fernanda Rose 25 de mai às 19:03
+Técnicas de lógica da programação:
+* 		Linear: Modelo Tradicional; Não tem vínculo; Estrutura hierárquica; Programação de computadores; Execução sequenciada; Recursos Limitados; Única dimensão.  
+* 		Estruturada: organização, disposição e ordem dos elementos essenciais que compõem um corpo (concreto ou abstrato)
+* 		Modular: controlada por um conjunto de regras Parte independentes Simplificação Decompor o problema Verificação por módulo 
+
+Editar - Excluir
+FR
+Fernanda Rose 25 de mai às 16:53
+Algoritmos
+* 		Precisa de instruções detalhadas. Os programas são construídos dessas instruções.
+* 		Precisa ser entendimento por humano e máquina.
+Pra desenvolver um programa é necessário:
+1) Análise - Estudo e definição dos dados de entrada e saída. 2) Algoritmo - Descreve o programa por meio de ferramentas narrativas, fluxograma, ou pseudocódigo. 3) Codificação - O algoritmo é codificado de acordo com a linguagem de programação escolhida
+Como construir um algoritmo? - Compreender o problema; - Definir dados de entrada; - Definir processamento; - Definir dados de saída; - Utilizar um método de construção; - Teste e diagnóstico.
+
+Editar - Excluir
+FR
+Fernanda Rose 25 de mai às 15:28 (editado)
+Pensamento computacional - um processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador. (Aho, 2011; Lee, 2016).
+Está baseado em 4 pilares:
+1) Decomposição -> Dividir um problema complexo em subproblemas 2) Reconhecimento de padrões -> Identificar similaridades ou tendências 3) Abstração -> Extrapolar o conceito do problema para uma forma generalista 4) Design de algoritmos -> Automatizar - Definir passo a passo a solução do problema
+É um processo contínuo - Definir uma solução; - Testar a solução; - Aperfeiçoar a solução encontrada.
+
+
+Fernanda Rose há pouco
+Chave SSH
+Token
+
+Editar - Excluir
+FR
+Fernanda Rose 26 de mai às 12:46
+Blobs Trees Commits
+
+Editar - Excluir
+FR
+Fernanda Rose 26 de mai às 12:44
+SHA - Secure Hash Algorithm
+A encriptação gera um conjunto de caracteres identificador de 40 dígitos.
+
+Editar - Excluir
+FR
+Fernanda Rose 26 de mai às 12:23
+Instalar o Git.
+
+Editar - Excluir
+FR
+Fernanda Rose 26 de mai às 12:02
+Comandos básicos de navegação:
+GUI x CLI (Git - interação por linhas de comando);
+como entrar: windows + cmd
